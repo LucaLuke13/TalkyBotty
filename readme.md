@@ -50,5 +50,12 @@ source voicebot/bin/activate
 python3 main.py
 ```
 
-This will start the application, allowing it to process incoming voice messages and videos according to its current capabilities.
+This will start the application, allowing it to process incoming voice messages and videos.
+
+### Roadmap
+
+- [x] Receive messages using telegram
+- [x] Transcribe (and translate) voice messages using whisper.cpp
+- [x] Transcribe (and translate) video messages
+- [ ] Receive messages using signal-cli
 

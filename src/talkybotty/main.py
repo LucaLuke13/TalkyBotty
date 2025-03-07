@@ -10,6 +10,7 @@ import argparse
 from moviepy.editor import VideoFileClip
 from .classes.telegram import telegram
 
+
 class talkyBotty:
     def run(args):
         tg = telegram(debug=args.debug)
